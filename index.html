@@ -6,14 +6,16 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style/mobile.css">
         <title>Analytics Web Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 
     <body>
 
         <div class="container-header">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 .col-md-12">
                     <div class="image-logo">
                         <img src="../Project2Teachmeskills/img/logo.PNG" alt=" "/>
                     </div>
@@ -26,10 +28,10 @@
         <div class="container-main">
             <div class="container-navigation">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-6 .col-md-6">
                         <img src="../Project2Teachmeskills/img/logo-wt.PNG" alt=" "/>
                     </div>
-                    <div class="col-6">
+                    <div class="col-6 .col-md-6">
                         <nav class="main-nav">
                             <a href="#home">Home</a>
                             <a href="#about">About</a>
@@ -44,7 +46,7 @@
                 <h2>OUR STORY</h2>
                 <hr class="blue-bg"/>
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-6 .col-md-12">
                         <div class="main-text"> 
                             <p class="main-text-1">Founded in 2011 by John Mathew Smith, 
                             <a href="#Konstruct">Konstruct</a> has become the number one construction management firm
@@ -56,31 +58,33 @@
                             </p>
                         </div>   
                     </div>
-                    <div class="col-6">
-                        <div class="col-4 first">
-                            <p>WE<br/>PLAN</p>
-                        </div>
-                        <div class="col-4 second">
-                            <p>WE<br/>MANAGE</p>
-                        </div>
-                        <div class="col-4 third">
-                            <p>WE<br/>BUILD</p>
+                    <div class="col-6 .col-md-12">
+                        <div class="row">
+                            <div class="col-4 .col-md-4 first">
+                                <p>WE<br/>PLAN</p>
+                            </div>
+                            <div class="col-4 .col-md-4 second">
+                                <p>WE<br/>MANAGE</p>
+                            </div>
+                            <div class="col-4 .col-md-4 third">
+                                <p>WE<br/>BUILD</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div id="services" class="container-services">
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-4 .col-md-4">
                        <h2>OUR CAPABILITIES</h2>
                        <hr class="blue-bg"/>
                     </div>
-                    <div class="col-4">
+                    <div class="col-6 .col-md-7">
                         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
                             sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.
                         </p>
                     </div>
-                    <div class="col-4 button">
+                    <div class="col-2 .col-md-1 button">
                         <a href="#button">ALL SERVICES</a>
                     </div>
                 </div>
@@ -116,10 +120,76 @@
             <div class="row">
                 <div class="col-12">
                     <h5>Want to build<br/> something amazing?</h5>
-                    <a href="#button">GET IN TOUCH</a>
+                    <a href="#button">GET IN TOUCH</a>  
+                </div>
                 </div>
             </div>
         </div>
         
+        <div class="container-form">
+            <div class="row">
+                <div class="col-4">
+                    <h3>Newsletter Signup</h3>
+                </div>
+                <div class="col-8">
+                    <form action="page">
+                        <div>
+                        <input type="email" require placeholder="test@youremail.com"/>
+                        <button type="submit">SIGNUP</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="contact" class="container-contacts">
+            <div class="row">
+                <div class="col-3">
+                    <h6>COMPANY</h6>
+                        <a href="logo"><img src="../Project2Teachmeskills/img/logo.PNG" alt=""/></a>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                        nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                </div>
+                <div class="col-1">
+                    <h6>LINKS</h6>
+                        <ul class="nav-section">
+                            <li><a href="home">HOME</a></li>
+                            <li><a href="home">ABOUT</a></li>
+                            <li><a href="home">SERVICES</a></li>
+                            <li><a href="home">PROJECTS</a></li>                                
+                            <li><a href="home">CONTACT US</a></li>
+                        </ul>
+                </div>
+                <div class="col-2">
+                    <ul class="nav-section">
+                        <li><a href="home">FAQ</a></li>
+                        <li><a href="home">TERMSQ</a></li>
+                        <li><a href="home">CAREERS</a></li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <ul class="nav-section">
+                        <li><a href="home">BLOG</a></li>
+                        <li><a href="home">PARTNERS</a></li>
+                        <li><a href="home">NEWS</a></li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <h6>CONTACT US</h6>
+                    <p>213 Baker StreetOriel City Kounty7000 KNW,Kountry Name +23 994 233 4022 info@konstruct.com</p>
+                </div>
+                <div class="col-2">
+                    <a href="icon1"><img src="../Project2Teachmeskills/img/fb-icon.png" alt="facebook"/></a>
+                    <a href="icon2"><img src="../Project2Teachmeskills/img/tw-icon.png" alt="twitter"/></a>
+                    <a href="icon3"><img src="../Project2Teachmeskills/img/gg-icon.png" alt="google"/></a>
+                </div>
+            </div>
+        </div>
+        
+        
+        <footer>
+            <div class="container-footer">
+                <p>© 2017 Konstruct Inc. Designed by Jane Kathryn Teo</p>
+            </div>
+        </footer>
     </body>
 </html>
