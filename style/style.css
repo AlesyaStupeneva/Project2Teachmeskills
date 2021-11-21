@@ -157,8 +157,9 @@ hr.blue-bg {
     
 }
 .container-about .col-4 {
-    width: 140px;
+    max-width: 140px;
     height: 224px;
+    width: 100%;
     /* border: 1px solid red; */
     margin-right: 20px;
     
