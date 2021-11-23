@@ -26,10 +26,10 @@
     .container-navigation img {
         padding-left: 3%;
     } 
-        .container-navigation .row {
+    .container-navigation .row {
         display: flex;
-        flex-direction: column;
-    }
+        flex-wrap: wrap;
+    }*/
     .container-about .row {
         display: block;
     }
@@ -55,6 +55,15 @@
     }
     .container-form input {
          margin-left: -80px; 
+    }
+    .container-text-about .row {
+        display: grid;
+        grid-template-columns: 1fr;
+       
+    }
+    .container-about .row {
+        display: flex;
+        flex-wrap: wrap;
     }
        /*display: flex;
        flex-direction: column;
